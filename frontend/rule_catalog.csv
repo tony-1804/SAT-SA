@@ -1,0 +1,16 @@
+rule_id,rule_name,category,base_severity,base_fp_rate
+R101,Multiple failed logins,Authentication,Low,0.75
+R102,Login from unusual geography,Authentication,Medium,0.55
+R103,Privileged account added,Privilege Abuse,High,0.2
+R104,Outbound traffic to rare domain,Exfiltration,Medium,0.5
+R105,Large data transfer off-hours,Exfiltration,High,0.3
+R106,Malware signature on endpoint,Malware,High,0.25
+R107,Suspicious PowerShell execution,Malware,Medium,0.45
+R108,Port scan from internal host,Reconnaissance,Low,0.65
+R109,Unpatched service exploited,Vulnerability,Critical,0.1
+R110,Phishing email reported,Phishing,Medium,0.4
+R111,Firewall rule modified,Config Change,Medium,0.5
+R112,ICS/SCADA protocol anomaly,OT Anomaly,High,0.35
+R113,DNS tunnelling pattern,Exfiltration,High,0.25
+R114,Ransomware behaviour (file burst),Malware,Critical,0.1
+R115,Service account interactive login,Privilege Abuse,Medium,0.4

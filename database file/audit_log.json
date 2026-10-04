@@ -1,0 +1,24 @@
+{
+ "generated": "2026-09-30T14:05:07",
+ "weights": {
+  "orphan": 0.1,
+  "miss_cat": 0.08,
+  "drop": 0.08,
+  "crit_no_esc": 0.18,
+  "fast_close": 0.14,
+  "blind": 0.16,
+  "dur": 0.1,
+  "evid": 0.1,
+  "reason": 0.06,
+  "template": 0.1,
+  "repeat": 0.08,
+  "stale": 0.08
+ },
+ "inputs": {
+  "alerts.csv": "c7806ed89f2114bb",
+  "cases.csv": "76eee66b316a725f",
+  "assets.csv": "a2b471669ca6ef8a",
+  "entities.csv": "6a4d68a87ee343ac"
+ },
+ "method": "Robust (median/MAD) peer z-scores, adverse direction, weighted sum"
+}

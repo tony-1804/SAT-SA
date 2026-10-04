@@ -1,0 +1,13 @@
+entity_id,name,sector,soc_model
+E01,Entity A,Power,In-house
+E02,Entity B,Banking,Outsourced
+E03,Entity C,Telecom,Outsourced
+E04,Entity D,Oil & Gas,In-house
+E05,Entity E,Transport,Hybrid
+E06,Entity F,Health,Outsourced
+E07,Entity G,Banking,In-house
+E08,Entity H,Power,Hybrid
+E09,Entity I,Telecom,In-house
+E10,Entity J,Insurance,Outsourced
+E11,Entity K,Government,In-house
+E12,Entity L,Banking,In-house
